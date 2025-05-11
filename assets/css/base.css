@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Josefin Sans", sans-serif;
+}
+:root{
+  --mainColor:#FB2E86;
+  --footerColor:#EEEFFB;
+  --heroColor:#F2F0FF;
+  --subTitleColor:#8A8FB9;
+  --greenColor:#05e6b7;
+  --blueColor:#00009d;
+  --textColor:#151875;
+  --yellowColor:#ffe9c0;
+  --numFont:'Lato', sans-serif;
+  --mutedColor:#1a0b5b4d;
+  --mutedColor2:#72718f;
+  --mainfont:'Josefin Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.active{
+  color: var(--mainColor) !important;
+}
+.border-0{
+  border: none;
+}
+.container{
+  width: calc((100% - 300px));
+  margin: auto;
+}
+ul{
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+h1,h2,h3,h4,h5,h6{
+  color: #151875;
+}
+h2{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 42px;
+}
+h5{
+  font-weight: 700;
+font-size: 18px;
+font-family: 'Lato', sans-serif;
+
+}
+input{
+  outline: none;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+}
+.heading{
+  text-align: center;
+  padding: 39px 0;
+}
+.green{
+  background-color: var(--greenColor);
+}
+.pink{
+  background-color: var(--mainColor);
+}
+.blue{
+  background-color: var(--blueColor);
+}
