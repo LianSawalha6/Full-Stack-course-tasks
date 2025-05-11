@@ -72,7 +72,7 @@ header form input{
   align-items: flex-start;
   text-align: left;
   gap:14px;
-  /*animation: SlideInFromLeft 2s ;*/
+  animation: SlideInFromLeft 2s ;
 }
 .subtitle{
   color: var(--mainColor);
